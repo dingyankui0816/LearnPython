@@ -702,7 +702,7 @@
     isinstance(object, classinfo)       # 判断object是否是class的实例
         isinstance(1, int)              # 判断是不是int类型
         isinstance(1, (int, float))     # isinstance的第二个参数接受一个元组类型
-    issubclass(class, classinfo)        # 判断class是否为classinfo的子类
+    # issubclass(class, classinfo)        # 判断class是否为classinfo的子类
     locals()                            # 返回当前的变量列表
     map(function, iterable, ...)        # 遍历每个元素，执行function操作
         list(map(abs, range(-3, 4)))    # 返回[3, 2, 1, 0, 1, 2, 3]
